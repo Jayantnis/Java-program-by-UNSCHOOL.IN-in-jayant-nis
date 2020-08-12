@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class doing
+{
+	public static void main(String [] args)
+	{	int x,z1,z2,z3,b,c,d;
+		System.out.println("\nHello world\n");
+		System.out.println("\n\n\tAmstrong number\t\n\n");
+		System.out.printf("\n Values in A,B,C Enter:-  \n");
+		Scanner a=new Scanner(System.in);
+		b=a.nextInt();
+		c=a.nextInt();
+		d=a.nextInt();
+		x=(b*b*b)+(c*c*c)+(d*d*d);//1,153,370,407
+		System.out.printf("\n Result:- "+x);
+	}
+	//successful
+	
+}
